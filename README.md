@@ -65,6 +65,7 @@ ft_linear_regression/
 ├── requirements.txt         # dependencies
 ├── regression_plot.png      # plot of the result
 ├── linear_equation.png      # annotated diagram of the linear equation
+├── precision_metrics.png    # visual explanation of MAE, RMSE and R²
 └── Thetas_case/
     └── thetas.json          # trained parameters (θ0, θ1)
 ```
@@ -403,6 +404,8 @@ The points go down from left to right, and the line passes through the middle of
 ### Precision
 
 `precision.py` compares the predictions with the real prices. For each car, `error = prediction − price`, then three metrics are computed by hand.
+
+![Precision metrics](precision_metrics.png)
 
 #### MAE: Mean Absolute Error
 
