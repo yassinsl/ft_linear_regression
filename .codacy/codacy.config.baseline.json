@@ -6,8 +6,8 @@
     "organization": null,
     "repositoryId": null,
     "repositoryName": null,
-    "createdAt": "2026-10-22T19:03:51.934Z",
-    "updatedAt": "2026-10-22T19:03:51.934Z",
+    "createdAt": "2026-11-25T00:23:36.753Z",
+    "updatedAt": "2026-11-25T00:23:36.753Z",
     "languages": [
       "JSON",
       "Python"
@@ -60,9 +60,6 @@
         },
         {
           "patternId": "Ruff_B012_jump-statement-in-finally"
-        },
-        {
-          "patternId": "Ruff_B013_redundant-tuple-in-exception-handler"
         },
         {
           "patternId": "Ruff_B014_duplicate-handler-exception"
@@ -134,181 +131,16 @@
           "patternId": "Ruff_B039_mutable-contextvar-default"
         },
         {
-          "patternId": "Ruff_B901_return-in-generator"
-        },
-        {
-          "patternId": "Ruff_B903_class-as-data-structure"
-        },
-        {
           "patternId": "Ruff_B904_raise-without-from-inside-except"
         },
         {
           "patternId": "Ruff_B905_zip-without-explicit-strict"
         },
         {
-          "patternId": "Ruff_B909_loop-iterator-mutation"
-        },
-        {
           "patternId": "Ruff_B911_batched-without-explicit-strict"
         },
         {
           "patternId": "Ruff_C901_complex-structure"
-        },
-        {
-          "patternId": "Ruff_E101_mixed-spaces-and-tabs"
-        },
-        {
-          "patternId": "Ruff_E111_indentation-with-invalid-multiple"
-        },
-        {
-          "patternId": "Ruff_E112_no-indented-block"
-        },
-        {
-          "patternId": "Ruff_E113_unexpected-indentation"
-        },
-        {
-          "patternId": "Ruff_E114_indentation-with-invalid-multiple-comment"
-        },
-        {
-          "patternId": "Ruff_E115_no-indented-block-comment"
-        },
-        {
-          "patternId": "Ruff_E116_unexpected-indentation-comment"
-        },
-        {
-          "patternId": "Ruff_E117_over-indented"
-        },
-        {
-          "patternId": "Ruff_E201_whitespace-after-open-bracket"
-        },
-        {
-          "patternId": "Ruff_E202_whitespace-before-close-bracket"
-        },
-        {
-          "patternId": "Ruff_E203_whitespace-before-punctuation"
-        },
-        {
-          "patternId": "Ruff_E204_whitespace-after-decorator"
-        },
-        {
-          "patternId": "Ruff_E211_whitespace-before-parameters"
-        },
-        {
-          "patternId": "Ruff_E221_multiple-spaces-before-operator"
-        },
-        {
-          "patternId": "Ruff_E222_multiple-spaces-after-operator"
-        },
-        {
-          "patternId": "Ruff_E223_tab-before-operator"
-        },
-        {
-          "patternId": "Ruff_E224_tab-after-operator"
-        },
-        {
-          "patternId": "Ruff_E225_missing-whitespace-around-operator"
-        },
-        {
-          "patternId": "Ruff_E226_missing-whitespace-around-arithmetic-operator"
-        },
-        {
-          "patternId": "Ruff_E227_missing-whitespace-around-bitwise-or-shift-operator"
-        },
-        {
-          "patternId": "Ruff_E228_missing-whitespace-around-modulo-operator"
-        },
-        {
-          "patternId": "Ruff_E231_missing-whitespace"
-        },
-        {
-          "patternId": "Ruff_E241_multiple-spaces-after-comma"
-        },
-        {
-          "patternId": "Ruff_E242_tab-after-comma"
-        },
-        {
-          "patternId": "Ruff_E251_unexpected-spaces-around-keyword-parameter-equals"
-        },
-        {
-          "patternId": "Ruff_E252_missing-whitespace-around-parameter-equals"
-        },
-        {
-          "patternId": "Ruff_E261_too-few-spaces-before-inline-comment"
-        },
-        {
-          "patternId": "Ruff_E262_no-space-after-inline-comment"
-        },
-        {
-          "patternId": "Ruff_E265_no-space-after-block-comment"
-        },
-        {
-          "patternId": "Ruff_E266_multiple-leading-hashes-for-block-comment"
-        },
-        {
-          "patternId": "Ruff_E271_multiple-spaces-after-keyword"
-        },
-        {
-          "patternId": "Ruff_E272_multiple-spaces-before-keyword"
-        },
-        {
-          "patternId": "Ruff_E273_tab-after-keyword"
-        },
-        {
-          "patternId": "Ruff_E274_tab-before-keyword"
-        },
-        {
-          "patternId": "Ruff_E275_missing-whitespace-after-keyword"
-        },
-        {
-          "patternId": "Ruff_E301_blank-line-between-methods"
-        },
-        {
-          "patternId": "Ruff_E302_blank-lines-top-level"
-        },
-        {
-          "patternId": "Ruff_E303_too-many-blank-lines"
-        },
-        {
-          "patternId": "Ruff_E304_blank-line-after-decorator"
-        },
-        {
-          "patternId": "Ruff_E305_blank-lines-after-function-or-class"
-        },
-        {
-          "patternId": "Ruff_E306_blank-lines-before-nested-definition"
-        },
-        {
-          "patternId": "Ruff_E401_multiple-imports-on-one-line"
-        },
-        {
-          "patternId": "Ruff_E402_module-import-not-at-top-of-file"
-        },
-        {
-          "patternId": "Ruff_E501_line-too-long"
-        },
-        {
-          "patternId": "Ruff_E502_redundant-backslash"
-        },
-        {
-          "patternId": "Ruff_E701_multiple-statements-on-one-line-colon"
-        },
-        {
-          "patternId": "Ruff_E702_multiple-statements-on-one-line-semicolon"
-        },
-        {
-          "patternId": "Ruff_E703_useless-semicolon"
-        },
-        {
-          "patternId": "Ruff_E711_none-comparison"
-        },
-        {
-          "patternId": "Ruff_E712_true-false-comparison"
-        },
-        {
-          "patternId": "Ruff_E713_not-in-test"
-        },
-        {
-          "patternId": "Ruff_E714_not-is-test"
         },
         {
           "patternId": "Ruff_E721_type-comparison"
@@ -318,15 +150,6 @@
         },
         {
           "patternId": "Ruff_E731_lambda-assignment"
-        },
-        {
-          "patternId": "Ruff_E741_ambiguous-variable-name"
-        },
-        {
-          "patternId": "Ruff_E742_ambiguous-class-name"
-        },
-        {
-          "patternId": "Ruff_E743_ambiguous-function-name"
         },
         {
           "patternId": "Ruff_E902_io-error"
@@ -440,45 +263,6 @@
           "patternId": "Ruff_S324_hashlib-insecure-hash-function"
         },
         {
-          "patternId": "Ruff_S401_suspicious-telnetlib-import"
-        },
-        {
-          "patternId": "Ruff_S402_suspicious-ftplib-import"
-        },
-        {
-          "patternId": "Ruff_S403_suspicious-pickle-import"
-        },
-        {
-          "patternId": "Ruff_S404_suspicious-subprocess-import"
-        },
-        {
-          "patternId": "Ruff_S405_suspicious-xml-etree-import"
-        },
-        {
-          "patternId": "Ruff_S406_suspicious-xml-sax-import"
-        },
-        {
-          "patternId": "Ruff_S407_suspicious-xml-expat-import"
-        },
-        {
-          "patternId": "Ruff_S408_suspicious-xml-minidom-import"
-        },
-        {
-          "patternId": "Ruff_S409_suspicious-xml-pulldom-import"
-        },
-        {
-          "patternId": "Ruff_S411_suspicious-xmlrpc-import"
-        },
-        {
-          "patternId": "Ruff_S412_suspicious-httpoxy-import"
-        },
-        {
-          "patternId": "Ruff_S413_suspicious-pycrypto-import"
-        },
-        {
-          "patternId": "Ruff_S415_suspicious-pyghmi-import"
-        },
-        {
           "patternId": "Ruff_S501_request-with-no-cert-validation"
         },
         {
@@ -546,21 +330,6 @@
         },
         {
           "patternId": "Ruff_S702_mako-templates"
-        },
-        {
-          "patternId": "Ruff_W191_tab-indentation"
-        },
-        {
-          "patternId": "Ruff_W292_missing-newline-at-end-of-file"
-        },
-        {
-          "patternId": "Ruff_W293_blank-line-with-whitespace"
-        },
-        {
-          "patternId": "Ruff_W391_too-many-newlines-at-end-of-file"
-        },
-        {
-          "patternId": "Ruff_W505_doc-line-too-long"
         },
         {
           "patternId": "Ruff_W605_invalid-escape-sequence"
@@ -806,9 +575,6 @@
           "patternId": "spectral_asyncapi-3-headers-schema-type-object"
         },
         {
-          "patternId": "spectral_asyncapi-3-operation-description"
-        },
-        {
           "patternId": "spectral_asyncapi-3-operation-security"
         },
         {
@@ -834,9 +600,6 @@
         },
         {
           "patternId": "spectral_asyncapi-latest-version"
-        },
-        {
-          "patternId": "spectral_asyncapi-operation-description"
         },
         {
           "patternId": "spectral_asyncapi-operation-operationId"
@@ -933,9 +696,6 @@
         },
         {
           "patternId": "spectral_oas3-unused-component"
-        },
-        {
-          "patternId": "spectral_operation-description"
         },
         {
           "patternId": "spectral_operation-operationId"
@@ -1167,9 +927,6 @@
           "patternId": "PyLintPython3_C0123"
         },
         {
-          "patternId": "PyLintPython3_C0200"
-        },
-        {
           "patternId": "PyLintPython3_E0100"
         },
         {
@@ -1338,31 +1095,13 @@
           "patternId": "PyLintPython3_E1306"
         },
         {
-          "patternId": "PyLintPython3_R0202"
-        },
-        {
-          "patternId": "PyLintPython3_R0203"
-        },
-        {
           "patternId": "PyLintPython3_W0101"
         },
         {
           "patternId": "PyLintPython3_W0102"
         },
         {
-          "patternId": "PyLintPython3_W0104"
-        },
-        {
-          "patternId": "PyLintPython3_W0105"
-        },
-        {
           "patternId": "PyLintPython3_W0106"
-        },
-        {
-          "patternId": "PyLintPython3_W0107"
-        },
-        {
-          "patternId": "PyLintPython3_W0108"
         },
         {
           "patternId": "PyLintPython3_W0109"
@@ -1392,19 +1131,10 @@
           "patternId": "PyLintPython3_W0233"
         },
         {
-          "patternId": "PyLintPython3_W0404"
-        },
-        {
           "patternId": "PyLintPython3_W0410"
         },
         {
           "patternId": "PyLintPython3_W0601"
-        },
-        {
-          "patternId": "PyLintPython3_W0602"
-        },
-        {
-          "patternId": "PyLintPython3_W0604"
         },
         {
           "patternId": "PyLintPython3_W0611"
@@ -1693,12 +1423,6 @@
         },
         {
           "patternId": "Prospector_profile-validator"
-        },
-        {
-          "patternId": "Prospector_pycodestyle"
-        },
-        {
-          "patternId": "Prospector_pydocstyle"
         },
         {
           "patternId": "Prospector_pyflakes"
